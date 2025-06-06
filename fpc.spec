@@ -30,7 +30,7 @@ make PREFIX=%{buildroot}/usr install
 cd %{buildroot}
 mv usr/lib usr/lib64
 mkdir etc
-usr/lib64/%{name}/%{version}/samplecfg /usr/lib64/${name}/%{version} etc
+usr/lib64/%{name}/%{version}/samplecfg /usr/lib64/%{name}/%{version} etc
 
 %files
 %{_bindir}/*
