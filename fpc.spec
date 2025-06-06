@@ -2,7 +2,7 @@
 
 Name:		fpc
 Version:	3.2.4
-Release:	3
+Release:	4
 Summary:	Free Pascal Compiler
 License:	GPLv2+ and LGPLv2+ with exceptions # https://wiki.lazarus.freepascal.org/FPC_modified_LGPL
 URL:		https://www.freepascal.org
@@ -41,6 +41,9 @@ usr/lib64/%{name}/%{version}/samplecfg /usr/lib64/%{name}/%{version} etc
 %doc %{_defaultdocdir}/%{name}-%{version}/*
 
 %changelog
+* Fri Jun 06 2025 dlk3 <dave@daveking.com> 3.2.4-4
+- Rebuilding package with tito
+
 * Thu Jun 05 2025 dlk3 <dave@daveking.com> 3.2.4-3
 - Test removing --nowait option from COPR build process (dave@daveking.com)
 
